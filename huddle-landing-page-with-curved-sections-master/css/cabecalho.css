@@ -1,4 +1,19 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
+    padding: 2em 2em 0;
+}
+
+.cabecalho_logo {
+    width: 10em;
+}
+
+.cabecalho_button {
+    background-color: white;
+    font-weight: bold;
+    color: var(--Light-Pink);
+    padding: 5px 15px;
+    border-color: var(--Light-Pink);
+    border-radius: 15px;
+    cursor: pointer;
 }
