@@ -1,0 +1,76 @@
+:root {
+    /* Primary */
+    --pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    /* Neutral */
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+    /* Typography */
+    --cabecalho: 'Poppins';
+    --corpo: 'Open Sans';
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-to-action_titulo {
+    font-family: var(--cabecalho);
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.call-to-action_paragrafo {
+    color: var(--Very-Dark-Cyan);
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.call-to-action_button {
+    width: 20em;
+    border-radius: 20px;
+    border-color: var(--pink);
+    color: white;
+    background-color: var(--pink);
+    padding: 10px 20px;
+    margin-bottom: 100px;
+}
+
+.call-to-action a {
+    color: white;
+    font-family: var(--corpo);
+    font-weight: 700;
+}
+
+.call-to-action_imagem {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.call-to-action_engajamento {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.communities-formed, .call-to-action_messages-sent {
+    display: flex;
+    flex-direction: column;
+}
+
+.engagement-icon {
+    width: 1.5em;
+}
+
+.number_engagement {
+   font-size: 3.5em;
+}
+
+.descricao_number {
+    text-align: center;
+}
+

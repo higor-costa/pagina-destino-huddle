@@ -1,0 +1,24 @@
+.grow-together {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.texto_grow-together {
+    display: flex;
+    flex-direction: column;
+}
+
+.grow-together_titulo {
+    margin-bottom: 20px;
+}
+
+.grow-together_paragrafo {
+    color: var(--Very-Dark-Cyan);
+    font-weight: 600;
+}
+
+.illustration-grow-together {
+    width: 30em;
+}

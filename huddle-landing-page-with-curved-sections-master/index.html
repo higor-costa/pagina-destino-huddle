@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
+
+</html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/cabecalho.css">
+  <link rel="stylesheet" href="css/call-to-action.css">
+  <link rel="stylesheet" href="css/grow-together.css">
+  <link rel="stylesheet" href="css/flowing-conversation.css">
+  <link rel="stylesheet" href="css/your-users.css">
+  <link rel="stylesheet" href="css/ready-to-build.css">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <title>Huddle landing page</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -25,69 +33,96 @@
   <main>
     <header class="cabecalho">
       <img class="cabecalho_logo" src="images/logo.svg" alt="Logo do Huddle" title="Logo">
-      <button class="cabecalho_button" type="button">Try It Free</button>
+      <button class="cabecalho_button" type="button"><a href="#">Try It Free</a></button>
     </header>
 
-    <!-- <section class="call-to-action">
+    <section class="call-to-action">
       <h1 class="call-to-action_titulo">Build The Community Your Fans Will Love</h1>
       <p class="call-to-action_paragrafo">
-        Huddle re-imagines the way we build communities. You have a voice, but so does
-        your audience. Create connections with your users as you engage in genuine discussion.
+        Huddle re-imagines the way we build communities. You have a <br> voice, but so does
+        your audience. Create connections with your <br> users as you engage in genuine discussion.
       </p>
-      <button class="call-to-action_button" type="button">Get Started For Free</button>
+      <button class="call-to-action_button" type="button"><a href="#">Get Started For Free</a></button>
       <img class="call-to-action_imagem" src="images/screen-mockups.svg" alt="Iustração screen mockups">
       <div class="call-to-action_engajamento">
         <div class="communities-formed">
-          <img src="images/icon-communities.svg" alt="icon communities">
-          <span class="communities-formed_number">1.4k+</span>
-          <h5 class="communities-formed_titulo">Communities Formed</h5>
+          <img class="engagement-icon" src="images/icon-communities.svg" alt="icon communities">
+          <span class="number_engagement">1.4k+</span>
+          <h5 class="descricao_number">Communities Formed</h5>
         </div>
         <div class="call-to-action_messages-sent">
-          <img src="images/icon-messages.svg" alt="icon messages">
-          <span class="messages-sent_number">2.7m+</span>
-          <h5 class="messages-sent_titulo">Messages Sent</h5>
+          <img class="engagement-icon" src="images/icon-messages.svg" alt="icon messages">
+          <span class="number_engagement">2.7m+</span>
+          <h5 class="descricao_number">Messages Sent</h5>
         </div>
-    </section> -->
+      </div>
+    </section>
 
-    <!-- <section class="grow-together">
-      Grow Together
-      Generate meaningful discussions with your audience and build a strong, loyal community.
-      Think of the insightful conversations you miss out on with a feedback form.
+    <section class="grow-together">
+      <div class="texto_grow-together">
+        <h2 class="grow-together_titulo">Grow Together</h2>
+        <p class="grow-together_paragrafo">
+          Generate meaningful discussions with your audience and build a <br> strong, loyal community.
+          Think of the insightful conversations you <br> miss out on with a feedback form.
+        </p>
+      </div>
+      <img class="illustration-grow-together" src="images/illustration-grow-together.svg" alt="">
     </section>
 
     <section class="flowing-conversation">
-      Flowing Conversations
-      You wouldn't paginate a conversation in real life, so why do it online? Our threads have
-      just-in-time loading for a more natural flow.
+      <img class="illustration-flowing-conversation" src="images/illustration-flowing-conversation.svg" alt="">
+      <div class="texto_flowing-conversation">
+        <h2 class="flowing-conversation_titulo">Flowing Conversations</h2>
+        <p class="flowing-conversation_paragrafo">
+          You wouldn't paginate a conversation in real life, so why do it online? <br> Our threads have
+          just-in-time loading for a more natural flow.
+        </p>
+      </div>
     </section>
 
     <section class="your-users">
-      Your Users
-      It takes no time at all to integrate Huddle with your app's authentication solution. This means,
-      once signed in to your app, your users can start chatting immediately.
-    </section>
-
+      <div class="texto_your-users">
+        <h2 class="your-users_titulo">Your Users</h2>
+        <p class="your-users_paragrafo">
+          It takes no time at all to integrate Huddle with your app's <br> authentication solution. This means,
+          once signed in to your app, your <br> users can start chatting immediately.
+      </div>
+      <img class="illustration-your-users" src="images/illustration-your-users.svg" alt="">
+    </section>  
+    
     <section class="ready-to-build">
-      Ready To Build Your Community?
-      Get Started For Free
+      <h2 class="ready-to-build_titulo">Ready To Build Your Community?</h2>
+      <button class="ready-to-build_button" type="button"><a href="#">Get Started For Free</a></button>
     </section>
   </main>
+  
+  <footer class="rodape">
+    <img src="images/logo.svg" alt="">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+      vestibulum a, ultrices quis sem.
+    </p>
 
-  <footer>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
-    vestibulum a, ultrices quis sem.
+    <address>
+      <img src="images/icon-phone.svg" alt="">
+      Phone: +1-543-123-4567
 
-    Phone: +1-543-123-4567
-    example@huddle.com
-    Newsletter
-    To recieve tips on how to grow your community, sign up to our weekly newsletter. We'll never
-    send you spam or pass on your email address
-    Subscribe
+      <img src="images/icon-email.svg" alt="">
+      example@huddle.com
+    </address>
+
+
+    <h3>Newsletter</h3>
+    <p>
+      To recieve tips on how to grow your community, sign up to our weekly newsletter. We'll never
+      send you spam or pass on your email address
+      Subscribe
+    </p>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer> -->
+  </footer>
 </body>
 
 </html>
