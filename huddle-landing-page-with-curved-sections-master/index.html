@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/flowing-conversation.css">
   <link rel="stylesheet" href="css/your-users.css">
   <link rel="stylesheet" href="css/ready-to-build.css">
+  <link rel="stylesheet" href="css/rodape.css">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <title>Huddle landing page</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -88,40 +89,58 @@
           once signed in to your app, your <br> users can start chatting immediately.
       </div>
       <img class="illustration-your-users" src="images/illustration-your-users.svg" alt="">
-    </section>  
-    
+    </section>
+
     <section class="ready-to-build">
       <h2 class="ready-to-build_titulo">Ready To Build Your Community?</h2>
       <button class="ready-to-build_button" type="button"><a href="#">Get Started For Free</a></button>
     </section>
   </main>
-  
+
   <footer class="rodape">
-    <img src="images/logo.svg" alt="">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
-      vestibulum a, ultrices quis sem.
-    </p>
+    <span class="img_top"></span>
+    <div class="rodape_informacoes">
+      <div class="rodape_logo">
+        <img class="icon_messages" src="images/icon-messages.svg" alt="Logo">
+        <h3>Huddle</h3>
+      </div>
+      <p class="rodape_paragrafo">
+        Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Mauris nulla quam, hendrerit <br> lacina
+        vestibulum a, ultrices quis sem.
+      </p>
+      <div>
+        <p class="rodape_contato">
+          <img src="images/icon-phone.svg" alt="">
+          Phone: +1-543-123-4567
+        </p>
+        <p class="rodape_contato">
+          <img src="images/icon-email.svg" alt="">
+          example@huddle.com
+        </p>
+      </div>
+      <div class="rodape_icons">
+        <i class="fa-brands fa-facebook-square"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter-square"></i>
+      </div>
+    </div>
 
-    <address>
-      <img src="images/icon-phone.svg" alt="">
-      Phone: +1-543-123-4567
 
-      <img src="images/icon-email.svg" alt="">
-      example@huddle.com
-    </address>
-
-
-    <h3>Newsletter</h3>
-    <p>
-      To recieve tips on how to grow your community, sign up to our weekly newsletter. We'll never
-      send you spam or pass on your email address
-      Subscribe
-    </p>
-    <p class="attribution">
+    <div class="newsletter">
+      <h3 class="newsletter_titulo">Newsletter</h3>
+      <p class="newsletter_paragrafo">
+        To recieve tips on how to grow your community, <br> sign up to our weekly newsletter. We'll never
+        send <br> you spam or pass on your email address
+      </p>
+      <div class="newsletter_form">
+        <input type="email" name="email" id="email" placeholder="Digite seu email">
+        <button class="newsletter_botao" type="submit">Subscribe</button>
+      </div>
+    </div>
+    <!-- <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+      Coded by <a href="#">Higor Costa</a>.
+    </p> -->
   </footer>
 </body>
 
