@@ -2,23 +2,18 @@
     display: flex;
     justify-content: space-between;
     padding: 3em 4em 0;
-    margin-bottom: 100px;
+    margin-bottom: 10em;
 }
 
 .cabecalho_logo {
-    width: 10em;
+    width: 13em;
+    height: 2em;
 }
 
 .cabecalho_button {
-    background-color: white;
-    font-weight: bold;
     color: var(--pink);
-    padding: 5px 15px;
-    border-color: var(--pink);
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.cabecalho a {
-    color: var(--pink);
+    border: 2px solid var(--pink);
+    border-radius: 20px;
+    padding: 8px 20px;
+    box-shadow: 1px 1px 6px hsl(321deg 100% 78% / 45%);
 }

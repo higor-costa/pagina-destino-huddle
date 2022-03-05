@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 50px;
 }
 
 .texto_flowing-conversation {
@@ -16,6 +15,7 @@
 
 .flowing-conversation_titulo {
     margin-bottom: 20px;
+    font-family: var(--cabecalho);
 }
 
 .flowing-conversation_paragrafo {
