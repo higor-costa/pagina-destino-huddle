@@ -3,22 +3,3 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
-.texto_flowing-conversation {
-    display: flex;
-    flex-direction: column;
-}
-
-.illustration-flowing-conversation {
-    width: 30em;
-}
-
-.flowing-conversation_titulo {
-    margin-bottom: 20px;
-    font-family: var(--cabecalho);
-}
-
-.flowing-conversation_paragrafo {
-    color: var(--Very-Dark-Cyan);
-    font-weight: 600;
-}
