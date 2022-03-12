@@ -74,6 +74,11 @@ body {
     box-shadow: 1px 1px 6px hsl(321deg 100% 78% / 45%);
 }
 
+.cabecalho_button:active {
+    color: var(--Light-Pink);
+    border: 2px solid var(--Light-Pink);
+}
+
 .call-to-action {
     display: flex;
     flex-direction: column;
@@ -91,7 +96,8 @@ body {
     margin: 1em 0 2.5em;
 }
 
-.button-pink {
+.call-to-action .button-pink, 
+.ready-to-build .button-pink {
     text-align: center;
     width: 20em;
     border-radius: 40px;
@@ -103,6 +109,11 @@ body {
     font-weight: 700;
     font-family: var(--corpo);
     box-shadow: 1px 4px 4px 1px hsl(0deg 0% 0% / 28%);
+}
+
+.call-to-action .button-pink:active, 
+.ready-to-build .button-pink:active {
+    background-color: var(--Light-Pink);
 }
 
 .call-to-action_imagem {
@@ -266,10 +277,14 @@ body {
     width: 100%;
 }
 
-.rodape_redes-sociais i{
+.rodape_redes-sociais .fa-brands{
     color: white;
     margin-right: 20px;
     font-size: 2em;
+}
+
+.rodape_redes-sociais .fa-twitter-square:active {
+    color:#00acee;
 }
 
 .newsletter {
@@ -294,6 +309,10 @@ body {
     margin-right: 25px;
 }
 
+.newsletter_form .email:invalid {
+    border: 1px solid var(--Light-Red);
+}
+
 .newsletter_form .newsletter_botao {
     background-color: var(--pink);
     color: white;
@@ -302,6 +321,10 @@ body {
     padding: 13px;
     width: 25%;
     cursor: pointer;
+}
+
+.newsletter_form .newsletter_botao:active {
+    background-color: var(--Light-Pink);
 }
 
 .rodape .attribution {
