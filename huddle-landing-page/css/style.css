@@ -92,7 +92,7 @@ body {
 }
 
 .call-to-action_paragrafo {
-    text-align: center;
+    /* text-align: center; */
     margin: 1em 0 2.5em;
 }
 
@@ -336,4 +336,108 @@ body {
 
 .rodape .attribution a {
     color: var(--pink);
+}
+
+@media only screen and (max-width: 768px) {
+    .cabecalho {
+        padding: 2em;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecalho_logo {
+        width: 40%;
+        height: 40%;
+    }
+
+    .cabecalho_button {
+        padding: 5px;
+        width: 40%;
+        text-align: center;
+    }
+
+    .call-to-action_titulo {
+        font-size: 2em;
+        text-align: center;
+        padding: 0 .8em;
+    }
+
+    .call-to-action_paragrafo {
+        margin: 1em 0 2.5em;
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .call-to-action_imagem {
+        width: 90%;
+    }
+
+    .call-to-action_engajamento {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .communities-formed {
+        margin-bottom: 7em;
+    }
+
+    .grow-together,
+    .your-users {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .flowing-conversation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    
+    .illustrations {
+        width: 90%;
+    }
+
+    .img_top-grow {
+        background-image: url(/huddle-landing-page/images/bg-section-top-mobile-1.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img_top-your {
+        background-image: url(/huddle-landing-page/images/bg-section-top-mobile-2.svg);
+        background-repeat: no-repeat;
+    }
+
+    .img_top {
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        left: 0%;
+        bottom: 100%;
+    }
+
+    .img_bottom-grow {
+        background-image: url(/huddle-landing-page/images/bg-section-bottom-mobile-1.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .img_bottom-your {
+        background-image: url(/huddle-landing-page/images/bg-section-bottom-mobile-2.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .img_bottom {
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        left: 0%;
+        top: 100%;
+    }
 }
