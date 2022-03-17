@@ -42,7 +42,7 @@ body {
 }
 
 .illustrations {
-    width: 30em;
+    width: calc(100vw - 70%);
 }
 /*FIM: Estilizações para toda a página*/
 
@@ -58,13 +58,13 @@ body {
 .cabecalho {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 3em 4em 0;
     margin-bottom: 10em;
 }
 
 .cabecalho_logo {
-    width: 13em;
-    height: 2em;
+    width: calc(100vw - 95%);
 }
 
 .cabecalho_button {
@@ -89,11 +89,11 @@ body {
 .call-to-action_titulo {
     font-family: var(--cabecalho);
     font-weight: 700;
-    font-size: 2.9em;
+    font-size: 3.5vw;
 }
 
 .call-to-action_paragrafo {
-    width: 40%;
+    width: 500px;
     text-align: center;
     margin: 1em 0 2.5em;
 }
@@ -163,6 +163,7 @@ body {
     position: absolute;
     left: 0%;
     bottom: 100%;
+    background-size: cover;
 }
 
 .img_bottom-grow {
@@ -213,6 +214,7 @@ body {
 .rodape .img_top {
     background-image: url(/huddle-landing-page/images/bg-footer-top-desktop.svg);
     background-repeat: no-repeat;
+    background-size: auto;
     position: absolute;
     width: 100%;
     height: 40%;
@@ -291,7 +293,7 @@ body {
 }
 
 .newsletter {
-    width: 40%;
+    width: 50%;
     padding: 12px;
 }
 
@@ -308,7 +310,7 @@ body {
 
 .newsletter_form .email {
     padding: 13px;
-    width: 60%;
+    width: 300px;
     border-radius: 8px;
     margin-right: 25px;
 }
@@ -323,7 +325,7 @@ body {
     border: none;
     border-radius: 4px;
     padding: 13px;
-    width: 25%;
+    width: 20%;
     cursor: pointer;
 }
 
@@ -342,7 +344,29 @@ body {
     color: var(--pink);
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1050px) {
+    .texto {
+        font-size: small;
+    }
+
+    .newsletter .newsletter_form {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .newsletter_form .email {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .newsletter .newsletter_botao {
+        align-self: flex-end;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .cabecalho {
         padding: 2em;
         justify-content: space-between;
@@ -350,18 +374,17 @@ body {
     }
 
     .cabecalho_logo {
-        width: 40%;
-        height: 40%;
+        width: calc(100vw - 90%);
     }
 
     .cabecalho_button {
         padding: 5px;
-        width: 40%;
+        width: calc(100vw - 90%);
         text-align: center;
     }
 
     .call-to-action_titulo {
-        font-size: 2em;
+        font-size: 7vw;
         text-align: center;
         padding: 0 .8em;
     }
@@ -405,7 +428,7 @@ body {
     }
     
     .illustrations {
-        width: 90%;
+        width: calc(100vw - 50%);
         margin-bottom: 5em;
     }
 
@@ -421,7 +444,7 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 30%;
+        height: 40%;
         position: absolute;
         left: 0%;
         bottom: 100%;
@@ -458,10 +481,10 @@ body {
         background-image: url(/huddle-landing-page/images/bg-footer-top-mobile.svg);
         background-repeat: no-repeat;
         position: absolute;
-        background-size: contain;
-        height: 40%;
+        background-size: cover;
+        height: 10%;
         left: 0%;
-        bottom: 66%;
+        bottom: 100%;
     }
 
     .rodape .informacoes {
@@ -478,7 +501,7 @@ body {
     }
 
     .rodape_paragrafo {
-        font-size: .9em;
+        font-size: small;
         font-weight: 400;
         line-height: 25px;
     }
@@ -501,5 +524,62 @@ body {
     .newsletter .newsletter_botao {
         align-self: flex-end;
         width: 50%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    .paragrafo {
+        width: 380px;
+    }
+
+    .rodape .informacoes {
+        display: flex;
+        align-items: center;
+    }
+
+    .rodape_logo .icon_messages {
+        width: 15%;
+    }
+
+    .newsletter_form {
+        width: 80%;
+    }
+
+    .newsletter_form .email {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .newsletter .newsletter_botao {
+        align-self: flex-end;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .newsletter {
+        width: 60%;
+    }
+
+    .newsletter_form {
+        width: 100%;
+    }
+
+    .newsletter_form .email {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .newsletter {
+        width: 80%;
+    }
+
+    .newsletter_form {
+        width: 100%;
+    }
+
+    .newsletter_form .email {
+        width: 100%;
     }
 }
