@@ -212,7 +212,7 @@ body {
 }
 
 .rodape .img_top {
-    background-image: url(images/bg-footer-top-desktop.svg);
+    background-image: url(/images/bg-footer-top-desktop.svg);
     background-repeat: no-repeat;
     background-size: auto;
     position: absolute;
