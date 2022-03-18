@@ -27,10 +27,10 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-![](./images/Captura1%20.png)
-![](./images/Captura2%20.png)
-![](./images/Captura3%20.png)
-![](./images/Captura4%20.png)
+![](./images/Captura1.png)
+![](./images/Captura2.png)
+![](./images/Captura3.png)
+![](./images/Captura4.png)
 
 ### Links
 
