@@ -148,12 +148,12 @@ body {
 }
 
 .img_top-grow {
-    background-image: url(/huddle-landing-page/images/bg-section-top-desktop-1.svg);
+    background-image: url('/images/bg-section-top-desktop-1.svg');
     background-repeat: no-repeat;
 }
 
 .img_top-your {
-    background-image: url(/huddle-landing-page/images/bg-section-top-desktop-2.svg);
+    background-image: url('/images/bg-section-top-desktop-2.svg');
     background-repeat: no-repeat;
 }
 
@@ -167,12 +167,12 @@ body {
 }
 
 .img_bottom-grow {
-    background-image: url(/huddle-landing-page/images/bg-section-bottom-desktop-1.svg);
+    background-image: url('/images/bg-section-bottom-desktop-1.svg');
     background-repeat: no-repeat;
 }
 
 .img_bottom-your {
-    background-image: url(/huddle-landing-page/images/bg-section-bottom-desktop-2.svg);
+    background-image: url('/images/bg-section-bottom-desktop-2.svg');
     background-repeat: no-repeat;
 }
 
@@ -212,7 +212,7 @@ body {
 }
 
 .rodape .img_top {
-    background-image: url(/huddle-landing-page/images/bg-footer-top-desktop.svg);
+    background-image: url('/images/bg-footer-top-desktop.svg');
     background-repeat: no-repeat;
     background-size: auto;
     position: absolute;
@@ -433,11 +433,11 @@ body {
     }
 
     .img_top-grow {
-        background-image: url(/huddle-landing-page/images/bg-section-top-mobile-1.svg);
+        background-image: url('/images/bg-section-top-mobile-1.svg');
     }
 
     .img_top-your {
-        background-image: url(/huddle-landing-page/images/bg-section-top-mobile-2.svg);
+        background-image: url('/images/bg-section-top-mobile-2.svg');
     }
 
     .img_top {
@@ -451,11 +451,11 @@ body {
     }
 
     .img_bottom-grow {
-        background-image: url(/huddle-landing-page/images/bg-section-bottom-mobile-1.svg);
+        background-image: url('/images/bg-section-bottom-mobile-1.svg');
     }
     
     .img_bottom-your {
-        background-image: url(/huddle-landing-page/images/bg-section-bottom-mobile-2.svg);
+        background-image: url('/images/bg-section-bottom-mobile-2.svg');
     }
     
     .img_bottom {
@@ -478,7 +478,7 @@ body {
     }
 
     .rodape .img_top {
-        background-image: url(/huddle-landing-page/images/bg-footer-top-mobile.svg);
+        background-image: url('/images/bg-footer-top-mobile.svg');
         background-repeat: no-repeat;
         position: absolute;
         background-size: cover;
