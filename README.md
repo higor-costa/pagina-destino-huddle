@@ -34,8 +34,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://your-live-site-url.com)
+- URL da solução: [Adicione o URL da solução aqui](https://www.frontendmentor.io/solutions/landing-page-com-flexbox-e-media-queries-nWl3LIjKW)
+- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://higor-costa.github.io/pagina-destino-huddle/)
 
 ## Meu processo
 
