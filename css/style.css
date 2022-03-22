@@ -299,7 +299,7 @@ body {
 }
 
 .newsletter .newsletter_titulo {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: var(--Very-Pale-Blue);
     font-family: var(--cabecalho);
     font-weight: 700;
@@ -316,9 +316,9 @@ body {
     margin-right: 25px;
 }
 
-/* .newsletter_form .email:invalid {
+.newsletter_form .email:invalid {
     border: 1px solid var(--Light-Red);
-} */
+}
 
 .newsletter_form .newsletter_botao {
     background-color: var(--pink);
