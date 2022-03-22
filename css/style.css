@@ -299,7 +299,7 @@ body {
 }
 
 .newsletter .newsletter_titulo {
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     color: var(--Very-Pale-Blue);
     font-family: var(--cabecalho);
     font-weight: 700;
