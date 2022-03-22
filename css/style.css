@@ -316,9 +316,9 @@ body {
     margin-right: 25px;
 }
 
-.newsletter_form .email:invalid {
+/* .newsletter_form .email:invalid {
     border: 1px solid var(--Light-Red);
-}
+} */
 
 .newsletter_form .newsletter_botao {
     background-color: var(--pink);
