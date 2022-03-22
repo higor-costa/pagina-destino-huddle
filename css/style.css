@@ -286,6 +286,7 @@ body {
     color: white;
     margin-right: 20px;
     font-size: 2em;
+    cursor: pointer;
 }
 
 .rodape_redes-sociais .fa-twitter-square:active {
