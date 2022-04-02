@@ -14,8 +14,6 @@ Esta é uma solução para o [desafio da página de destino do Huddle com seçõ
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
 - [Autor](#autor)
 
-**Observação: exclua esta nota e atualize o índice com base nas seções que você mantém.**
-
 ## Visão geral
 
 ### O desafio
