@@ -1,11 +1,10 @@
 # Frontend Mentor - Página inicial do Huddle com solução de seções curvas
 
-Esta é uma solução para o [desafio da página de destino do Huddle com seções curvas no Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o [desafio da página de destino do Huddle com seções curvas no Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2).
 
 ## Índice
 
 - [Visão geral](#visão-geral)
-  - [O desafio](#the-challenge)
   - [Captura de tela](#captura-de-tela)
   - [Links](#links)
 - [Meu processo](#meu-processo)
@@ -14,17 +13,7 @@ Esta é uma solução para o [desafio da página de destino do Huddle com seçõ
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
 - [Autor](#autor)
 
-**Observação: exclua esta nota e atualize o índice com base nas seções que você mantém.**
-
 ## Visão geral
-
-### O desafio
-
-Os usuários devem ser capazes de:
-
-- Visualize o layout ideal para o site, dependendo do tamanho da tela do dispositivo
-- Veja os estados de foco para todos os elementos interativos na página
-
 ### Captura de tela
 
 ![](./images/Captura1.png)
@@ -34,8 +23,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Adicione o URL da solução aqui](https://www.frontendmentor.io/solutions/landing-page-com-flexbox-e-media-queries-nWl3LIjKW)
-- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://higor-costa.github.io/pagina-destino-huddle/)
+- URL da solução: [Solução - Frontend Mentor](https://www.frontendmentor.io/solutions/landing-page-com-flexbox-e-media-queries-nWl3LIjKW)
+- URL do site ao vivo: [Site](https://higor-costa.github.io/pagina-destino-huddle/)
 
 ## Meu processo
 
